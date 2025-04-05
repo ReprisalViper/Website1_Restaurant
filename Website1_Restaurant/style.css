@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #e0f0e9;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2e8b57;
+  margin: 0 1.5rem;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: #2e8b57;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #256f47;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 10px;
+}
